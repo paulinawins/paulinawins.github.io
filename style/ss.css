@@ -1,5 +1,7 @@
 .buttons {
     text-align: center;
-    position: relative;
-    top: 50%;
+    vertical-align: middle;
+}
+.btn{
+    margin: 5% 5%;
 }
