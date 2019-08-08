@@ -3,8 +3,7 @@ import Typewriter from 'typewriter-effect/dist/core';
 const welcome = document.getElementsByClassName('welcome');
 
 var typewriter = new Typewriter('welcome', {
-  strings: ['Hello', 'World'],
-  autoStart: true,
+  loop: true
 });
 
 typewriter.typeString('Hello World!')
