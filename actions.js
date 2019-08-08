@@ -1,4 +1,7 @@
-function link(){
-    alert("This button is working!");
+function gotolinkedin(){
     window.open ("https://www.linkedin.com/in/nguyennpaulina");
+}
+
+function projectPage(){
+    alert("This page is still being developed :)");
 }
