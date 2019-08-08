@@ -2,10 +2,20 @@ import Typewriter from 'typewriter-effect/dist/core';
 
 const welcome = document.getElementsByClassName('welcome');
 
-new Typewriter('welcome', {
+var typewriter = new Typewriter('welcome', {
   strings: ['Hello', 'World'],
   autoStart: true,
 });
+
+typewriter.typeString('Hello World!')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Strings can be removed')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('<strong>altered!</strong>')
+    .pauseFor(2500)
+    .start();
 
 function gotolinkedin(){
     window.open ("https://www.linkedin.com/in/nguyennpaulina");
