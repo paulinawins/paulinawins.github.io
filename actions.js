@@ -1,3 +1,3 @@
 function link(){
-    href = "https://www.linkedin.com/in/nguyennpaulina";
+    location.href = "https://www.linkedin.com/in/nguyennpaulina";
 }
