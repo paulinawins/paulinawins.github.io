@@ -1,6 +1,8 @@
 import Typewriter from 'typewriter-effect/dist/core';
 
-new Typewriter('.welcome', {
+const welcome = document.getElementsByClassName('welcome');
+
+new Typewriter('welcome', {
   strings: ['Hello', 'World'],
   autoStart: true,
 });
