@@ -1,3 +1,6 @@
+import React, {Component} from "react";
+import TypingEffect from "typing-effect-react";
+
 const welcome = document.getElementsByClassName('welcome');
 
 function gotolinkedin(){
@@ -8,3 +11,8 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
+class YourComponent extends Component {
+    render() {
+      return <TypingEffect data={["Hello world :)", "Hello again :)"]} />;
+    }
+  }
