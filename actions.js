@@ -1,3 +1,5 @@
+import TypeIt from 'typeit';
+
 const welcome = document.getElementsByClassName('welcome');
 
 function gotolinkedin(){
@@ -8,3 +10,6 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
+new TypeIt('#myElement', {
+  strings: "This will be typed!"
+}).go();
