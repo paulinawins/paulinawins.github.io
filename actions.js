@@ -13,3 +13,9 @@ function projectPage(){
 new TypeIt('#myElement', {
   strings: "This will be typed!"
 }).go();
+
+new TypeIt('#simpleUsage', {
+  strings: 'This is a simple string.',
+  speed: 50,
+  waitUntilVisible: true
+}).go();
