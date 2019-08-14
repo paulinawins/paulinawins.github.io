@@ -10,11 +10,11 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
-new TypeIt('#myElement', {
+const instance = new TypeIt('#myElement', {
   strings: "This will be typed!"
 }).go();
 
-new TypeIt('#simpleUsage', {
+const instance2 = new TypeIt('#simpleUsage', {
   strings: 'This is a simple string.',
   speed: 50,
   waitUntilVisible: true
