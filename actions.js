@@ -13,9 +13,3 @@ function projectPage(){
 const instance = new TypeIt('#myElement', {
   strings: "This will be typed!"
 }).go();
-
-const instance2 = new TypeIt('#simpleUsage', {
-  strings: 'This is a simple string.',
-  speed: 50,
-  waitUntilVisible: true
-}).go();
