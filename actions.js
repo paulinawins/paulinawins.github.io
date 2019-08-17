@@ -13,3 +13,4 @@ function projectPage(){
 const instance = new TypeIt('#myElement', {
   strings: "This will be typed!"
 }).go();
+
