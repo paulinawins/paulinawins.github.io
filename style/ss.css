@@ -1,24 +1,4 @@
 /*
-body {
-    background-color: lightblue;
-    color: #f7ecec;
-    text-align: center;
-}
-.container {
-    vertical-align: middle;
-}
-.buttons {
-    
-    vertical-align: middle;
-    width: 100vw;
-    height: 100vh;
-}
-.btn{
-    margin: 5% 2.5%;
-}
-*/
-
-/*
  * Globals
  */
 
@@ -49,9 +29,10 @@ html,
 body {
   height: 100%;
   background-color: #fff;
+
 }
 body {
-  color: #fff;
+  background-color: #333;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
