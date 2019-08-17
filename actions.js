@@ -11,6 +11,6 @@ function projectPage(){
 */
 
 new TypeIt('#myElement', {
-  strings: "This will be typed!"
-});
+  speed: 45
+}).type('programmers');
 
