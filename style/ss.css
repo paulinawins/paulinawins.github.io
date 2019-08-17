@@ -29,7 +29,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  cursor: url('https://img.icons8.com/windows/32/000000/geometry.png'), pointer;
+  cursor: url('./grayGeoCursor.png'), pointer;
 }
 body {
   /*background-color: #333; */
