@@ -1,7 +1,9 @@
 body {
     background-color: lightblue;
-    text-align: center;
     color: #f7ecec;
+}
+.container {
+    text-align: center;
 }
 .buttons {
     
