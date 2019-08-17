@@ -9,6 +9,7 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
+function werk(){
 new TypeIt('#myElement', {
   strings: 'Alex MacArthur'
 });
@@ -16,4 +17,4 @@ new TypeIt('#myElement', {
 new TypeIt('#input', {
   strings: 'Paulina Nguyen'
 });
-
+}
