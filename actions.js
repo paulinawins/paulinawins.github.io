@@ -9,7 +9,7 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
-function werk(){
+window.onload = function(){
 new TypeIt('#myElement', {
   strings: 'Alex MacArthur'
 });
