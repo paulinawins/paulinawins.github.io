@@ -10,6 +10,6 @@ function projectPage(){
 }
 
 new TypeIt('#myElement', {
-  speed: 45
-}).type('programmers');
+  strings: 'Alex MacArthur'
+});
 
