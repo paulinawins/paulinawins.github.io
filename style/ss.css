@@ -29,7 +29,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-cursor: url('https://icons8.com/icon/12935/triangle');
+cursor: url('https://icons8.com/icon/12935/triangle'), pointer;
 }
 body {
   background-color: #333;
