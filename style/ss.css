@@ -29,10 +29,10 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-cursor: url('https://img.icons8.com/windows/32/000000/geometry.png'), pointer;
+  cursor: url('https://img.icons8.com/windows/32/000000/geometry.png'), pointer;
 }
 body {
-  background-color: #333;
+  background-color: #a9a9a9; 
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
