@@ -1,4 +1,4 @@
-import TypeIt from 'typeit';
+//import TypeIt from 'typeit';
 
 const welcome = document.getElementsByClassName('welcome');
 
@@ -10,8 +10,6 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
-/*
 const instance = new TypeIt('#myElement', {
   strings: "This will be typed!"
 }).go();
-*/
