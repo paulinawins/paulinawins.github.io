@@ -1,8 +1,9 @@
 body {
     background-color: lightblue;
+    text-align: center;
 }
 .buttons {
-    text-align: center;
+    
     vertical-align: middle;
     width: 100vw;
     height: 100vh;
