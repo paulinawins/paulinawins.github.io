@@ -10,9 +10,7 @@ function projectPage(){
     alert("This page is still being developed :)");
 }
 
-const instance = new TypeIt('#myElement', {
+new TypeIt('#myElement', {
   strings: "This will be typed!"
 });
-
-instance.go();
 
