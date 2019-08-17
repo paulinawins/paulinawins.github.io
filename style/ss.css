@@ -136,3 +136,8 @@ body {
   }
 
 }
+
+/* Buttons */
+#linkedin {
+    cursor: url('forward.png'), pointer;
+}
