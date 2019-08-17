@@ -1,4 +1,4 @@
-import TypeIt from 'typeit';
+//import TypeIt from 'typeit';
 
 const welcome = document.getElementsByClassName('welcome');
 
