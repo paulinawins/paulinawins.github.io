@@ -13,3 +13,7 @@ new TypeIt('#myElement', {
   strings: 'Alex MacArthur'
 });
 
+new TypeIt('#input', {
+  strings: 'Paulina Nguyen'
+});
+
