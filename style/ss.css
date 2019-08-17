@@ -13,7 +13,7 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #fff;
+  color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -58,6 +58,7 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px;
+  color: #fff;
 }
 
 
