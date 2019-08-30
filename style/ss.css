@@ -116,6 +116,9 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+.cover-heading {
+  display: inline-block;
+}
 
 /*
  * Affix and center
@@ -151,7 +154,6 @@ body {
   typing 3.5s steps(30, end),
   blink-caret .5s step-end infinite;
   overflow: hidden;
-  width: 50%;
 }
 
 /* The typing effect */
