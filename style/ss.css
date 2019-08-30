@@ -44,6 +44,7 @@ body {
   /*min-height: 100%;*/
 }
 .site-wrapper-inner {
+  padding-top: 40%;
   display: table-cell;
   vertical-align: top;
 }
