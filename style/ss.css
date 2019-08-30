@@ -51,6 +51,9 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.header {
+  display: inline-block;
+}
 
 /* Padding for spacing */
 .inner {
