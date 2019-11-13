@@ -3,5 +3,6 @@ function gotolinkedin(){
 }
 
 function projectPage(){
-    alert("This page is still being developed :)");
+    //alert("This page is still being developed :)");
+    window.open("http://paulinawins.com/projects/index.html");
 }
