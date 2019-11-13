@@ -1,5 +1,5 @@
 # Project Title
-Paulina's Personal Website
+Paulina's Personal Website - See code in action at http://paulinawins.com
 
 ## Description
 An exploration of development and software technologies.
