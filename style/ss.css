@@ -139,10 +139,7 @@ body {
 }
 
 /* Buttons */
-#linkedin {
-    cursor: url('https://img.icons8.com/nolan/40/000000/brief.png'), pointer;
-}
-#projects {
+#projects, #linkedin {
     cursor: url('plant.png'), pointer;
 }
 
