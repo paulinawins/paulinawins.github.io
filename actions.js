@@ -6,7 +6,7 @@ function projectPage(){
     window.open("http://paulinawins.com/projects/");
 }
 
-let clicked = 0;
+let clicked = 0
 
 function punny(){
 
