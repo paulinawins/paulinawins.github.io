@@ -142,6 +142,10 @@ body {
 #projects, #linkedin {
     cursor: url('plant.png'), pointer;
 }
+#pun {
+  margin-top: 0px;
+  font-size: x-small;
+}
 
 .typewriter {
   color: #fff;
