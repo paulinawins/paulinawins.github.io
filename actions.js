@@ -20,8 +20,7 @@ function punny(){
             Accept:'application/json'
         },
         responseType:'json'
-    }
-    )
+    })
     .then(res => res.json())
     .then(data => {
         const buttons = document.getElementById('buttons');
