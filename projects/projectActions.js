@@ -1,6 +1,9 @@
 const nasaUrl = 'https://api.nasa.gov/planetary/apod?api_key=ur9LoDK0IzbODykVfCE26OKy2toK6tUZnkFnjyv3';
 
-fetch(nasaUrl)
+fetch(nasaUrl, {
+    method: 'get',
+    responseType: 'json'
+})
 .then(res => res.json())
 .then(data => {
     let picUrl = data.hdurl;
