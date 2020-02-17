@@ -6,7 +6,7 @@ fetch(nasaUrl, {
 })
 .then(res => res.json())
 .then(data => {
-    let picUrl = data.hdurl;
+    //let picUrl = data.hdurl;
     console.log("pic url:" + data);
     
     /*const picContainer = document.getElementsByClassName('jumbotron');
@@ -15,3 +15,4 @@ fetch(nasaUrl, {
     picContainer.appendChild(picElement);
     */
 })
+.catch( e => console.log("error with nasa pic"))
