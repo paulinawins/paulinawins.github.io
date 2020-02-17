@@ -24,7 +24,7 @@ function punny(){
     )
     .then(res => res.json())
     .then(data => {
-        const buttoms = document.getElementById('buttons');
+        const buttons = document.getElementById('buttons');
         //console.log(data.joke);
         if(clicked>0){
             buttons.removeChild(buttons.lastChild);
