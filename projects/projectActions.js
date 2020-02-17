@@ -4,7 +4,7 @@ fetch(nasaUrl)
 .then(res => res.json())
 .then(data => {
     let picUrl = data.hdurl;
-    console.log(picUrl);
+    console.log("pic url:" + picUrl);
     
     /*const picContainer = document.getElementsByClassName('jumbotron');
     const picElement = document.createElement('div');
