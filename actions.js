@@ -24,13 +24,13 @@ function punny(){
     )
     .then(res => res.json())
     .then(data => {
-        const details = document.getElementById('buttons');
+        const buttoms = document.getElementById('buttons');
         //console.log(data.joke);
         if(clicked>0){
-            details.removeChild(details.lastChild);
+            buttons.removeChild(buttons.lastChild);
         }
         joke.textContent = data.joke;
-        details.appendChild(joke);
+        buttons.appendChild(joke);
         clicked++; 
     })
     .catch(
@@ -38,10 +38,3 @@ function punny(){
     )
 
 }
-
-/*
-const greeting  = document.createElement('p');
-greeting.setAttribute('class', 'lead');
-greeting.textContent = `Feel free to explore!`;
-details.appendChild(greeting);
-*/
