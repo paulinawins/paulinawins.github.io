@@ -11,7 +11,7 @@ An exploration of development and software technologies. As I learn new technolo
 
 ## Contact
 ``
-Want to reach collaborate?
+Want to reach out or collaborate?
 Message me here: https://www.linkedin.com/in/nguyennpaulina
 ``
 
