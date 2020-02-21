@@ -24,7 +24,6 @@ function punny(){
     .then(res => res.json())
     .then(data => {
         const buttons = document.getElementById('buttons');
-        //console.log(data.joke);
         if(clicked>0){
             buttons.removeChild(buttons.lastChild);
         }
@@ -32,8 +31,8 @@ function punny(){
         buttons.appendChild(joke);
         clicked++; 
     })
-    .catch(
-        console.log("The joke api isn't working properly. Dads are sad")
+    .catch( e=>
+        console.log("The joke api isn't working properly. Dads are sad. Error:"+ e)
     )
 
 }
