@@ -2,12 +2,13 @@
 See code in action at http://paulinawins.com
 
 ## Description
-An exploration of development and software technologies. As I learn new technologies/frameworks/things, I like to apply it here as a fun way to do my own design.
+An exploration of development and software technologies. As I learn new technologies/frameworks/designs, I like to apply it here for fun.
 
 ## Tech Stack
 - JavaScript 
 - HTML and CSS
 - Bootstrap
+- Call to Dad Joke API: https://icanhazdadjoke.com/
 
 ## Contact
 ``
