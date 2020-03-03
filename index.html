@@ -2,32 +2,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Paulina's Playground</title>
+        <title>Paulina's Website</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="actions.js"></script>
-        <link href="style/ss.css" type="text/css" rel="stylesheet">
+        
+        <link type="text/css" href="style/ss.css" rel="stylesheet">
 
     </head>
     <body>
-    <!--
-        <nav class="nav bg-dark navbar-dark">
-            <div class="container-fluid"> 
-                <div class="navbar-header">
-                        <a class="navbar-brand"> Welcome! (website under construction)</a>
+        <!--
+        <div class="container">
+                <div class="heading">
+                    <h1 class="cover-heading">Welcome!</h1>
                 </div>
-            </div>
-        </nav>
-    -->
-        <div class="welcome">
+                <div class="buttons">
+                        <button type="button" class="btn btn-outline-info btn-lg" onclick="projectPage()">Projects</button>
+                        <button type="button" class="btn btn-outline-info btn-lg" onclick="gotolinkedin()">LinkedIn</button>
+                </div>
         </div>
-        <div class="buttons">
-                <button type="button" class="btn btn-outline-info btn-lg" onclick="projectPage()">Projects</button>
-                <button type="button" class="btn btn-outline-info btn-lg" onclick="gotolinkedin()">LinkedIn</button>
-        </div>
+        -->
+        <div class="site-wrapper">
 
+                <div class="site-wrapper-inner">
+                  <div class="header">
+                    <h1 class="typewriter">Welcome To My Website</h1>
+                  </div>
+                  <div class="container">
+                    <div class="inner cover" id="buttons">
+                      <p class="lead">
+                        <button type="button" class="btn btn-default btn-lg" onclick="projectPage()" id="projects">Projects</button>
+                        <button type="button" class="btn btn-default btn-lg" onclick="gotolinkedin()" id="linkedin">LinkedIn</button>
+                      </p>
+                      <button type="button" class="btn btn-default btn-lg" onclick="punny()" id="pun">Pun?</button>
+                      <p></p>
+                    </div>
+                  </div>
+          
+                </div>
+          
+              </div>
+
+              <script type="text/javascript" src="actions.js"></script>
     </body>
 </html>

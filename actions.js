@@ -1,18 +1,39 @@
-import React, {Component} from "react";
-import TypingEffect from "typing-effect-react";
-
-const welcome = document.getElementsByClassName('welcome');
-
 function gotolinkedin(){
     window.open ("https://www.linkedin.com/in/nguyennpaulina");
 }
 
 function projectPage(){
-    alert("This page is still being developed :)");
+    window.open("http://paulinawins.com/projects/");
 }
 
-class YourComponent extends Component {
-    render() {
-      return <TypingEffect data={["Hello world :)", "Hello again :)"]} />;
-    }
-  }
+let clicked = 0
+
+function punny(){
+
+    const jokeapi ='https://icanhazdadjoke.com/';
+    const joke  = document.createElement('p');
+    joke.setAttribute('class', 'jokes');
+
+    fetch(jokeapi, {
+        method:'get',
+        headers: {
+            Accept:'application/json'
+        },
+        responseType:'json'
+    })
+    .then(res => res.json())
+    .then(data => {
+        const buttons = document.getElementById('buttons');
+        if(clicked>0){
+            buttons.removeChild(buttons.lastChild);
+        }
+        joke.textContent = data.joke;
+        buttons.appendChild(joke);
+        clicked++; 
+    })
+    .catch( e=>
+        console.log("The joke api isn't working properly. Dads are sad. Error:"+ e)
+    )
+
+}
+
