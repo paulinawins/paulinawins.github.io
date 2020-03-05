@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 function gotolinkedin(){
     window.open ("https://www.linkedin.com/in/nguyennpaulina");
 }
@@ -6,9 +9,10 @@ function projectPage(){
     window.open("http://paulinawins.com/projects/");
 }
 
-let clicked = 0
+//Stateful Variable
+const [firstClick, setClick] = React.useState(false);
 
-function punny(){
+const punny = () => {
 
     const jokeapi ='https://icanhazdadjoke.com/';
     const joke  = document.createElement('p');
@@ -24,12 +28,12 @@ function punny(){
     .then(res => res.json())
     .then(data => {
         const buttons = document.getElementById('buttons');
-        if(clicked>0){
+        if(firstClick){
             buttons.removeChild(buttons.lastChild);
         }
         joke.textContent = data.joke;
         buttons.appendChild(joke);
-        clicked++; 
+        setClick(true); 
     })
     .catch( e=>
         console.log("The joke api isn't working properly. Dads are sad. Error:"+ e)
