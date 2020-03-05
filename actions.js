@@ -35,8 +35,9 @@ const punny = () => {
         buttons.appendChild(joke);
         setClick(true); 
     })
-    .catch( e =>
-        console.log("The joke api isn't working properly. Dads are sad")
+    .catch( e=>
+        console.log("The joke api isn't working properly. Dads are sad. Error:"+ e)
     )
 
 }
+
