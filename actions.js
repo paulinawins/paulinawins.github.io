@@ -12,7 +12,7 @@ function projectPage(){
 //Stateful Variable
 const [firstClick, setClick] = React.useState(false);
 
-const punny = () => {
+function punny(){
 
     const jokeapi ='https://icanhazdadjoke.com/';
     const joke  = document.createElement('p');
