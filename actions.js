@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 function gotolinkedin(){
     window.open ("https://www.linkedin.com/in/nguyennpaulina");
 }
@@ -9,8 +6,7 @@ function projectPage(){
     window.open("http://paulinawins.com/projects/");
 }
 
-//Stateful Variable
-const [firstClick, setClick] = React.useState(false);
+let clicked = 0
 
 function punny(){
 
@@ -28,12 +24,12 @@ function punny(){
     .then(res => res.json())
     .then(data => {
         const buttons = document.getElementById('buttons');
-        if(firstClick){
+        if(clicked>0){
             buttons.removeChild(buttons.lastChild);
         }
         joke.textContent = data.joke;
         buttons.appendChild(joke);
-        setClick(true); 
+        clicked++; 
     })
     .catch( e=>
         console.log("The joke api isn't working properly. Dads are sad. Error:"+ e)
