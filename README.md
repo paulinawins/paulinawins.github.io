@@ -1,5 +1,5 @@
 # Paulina's Personal Website
-See code in action at http://paulinawins.com
+http://paulinawins.com
 
 ## Description
 An exploration of development and software technologies. As I learn new technologies/frameworks/designs, I like to apply it here for fun.
@@ -13,7 +13,7 @@ An exploration of development and software technologies. As I learn new technolo
 ## Contact
 ``
 Want to reach out or collaborate?
-Message me here: https://www.linkedin.com/in/nguyennpaulina
+https://www.linkedin.com/in/nguyennpaulina
 ``
 
 
