@@ -11,10 +11,10 @@ An exploration of development and software technologies. As I learn new technolo
 - Call to Dad Joke API: https://icanhazdadjoke.com/
 
 ## Contact
-``
+```
 Want to reach out or collaborate?
 https://www.linkedin.com/in/nguyennpaulina
-``
+```
 
 
 
