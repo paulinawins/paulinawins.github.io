@@ -208,7 +208,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .demo .main-title {
+  .demo .header {
      font-size: 3em;
   }
 }
