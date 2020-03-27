@@ -12,6 +12,7 @@
 body{
     background-color: #333333;
     color: #fff;
+    cursor: url('../style/grayGeoCursor.png'), pointer; 
 }
   
 .image-container img {
