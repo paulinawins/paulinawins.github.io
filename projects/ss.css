@@ -12,13 +12,6 @@ body{
     background-color: #333333;
     color: #fff;
 }
-/*
-  .image-container {
-    text-align: center;
-    line-height: 500px;
-    height: 100%;
-  }
-*/
   
 .image-container img {
     height: 250px;
@@ -26,7 +19,7 @@ body{
 }
 img {
     height: 100%;
-    width: 100%;
+    max-width: 500px;
 }
 /* Add a gray background color and some padding to the footer */
 footer {
