@@ -147,6 +147,7 @@ body {
 }
 
 .typewriter {
+  font-size: 100%;
   color: #fff;
   border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
