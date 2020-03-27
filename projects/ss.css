@@ -24,6 +24,10 @@ body{
     height: 250px;
     width: 500px;
 }
+img {
+    height: 100%;
+    width: 100%;
+}
 /* Add a gray background color and some padding to the footer */
 footer {
     padding: 25px;
