@@ -1,9 +1,9 @@
 function gotolinkedin(){
-    window.open ("https://www.linkedin.com/in/nguyennpaulina");
+    window.open ("https://www.linkedin.com/in/nguyennpaulina", "_self");
 }
 
 function projectPage(){
-    window.open("http://paulinawins.com/projects/");
+    window.open("http://paulinawins.com/projects/", "_self");
 }
 
 let clicked = 0
