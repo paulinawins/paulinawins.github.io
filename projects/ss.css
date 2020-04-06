@@ -1,4 +1,7 @@
-
+html {
+    background-size: cover;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
     margin-bottom: 0;
@@ -13,8 +16,6 @@ body{
     background-color: #333333;
     color: #fff;
     cursor: url('../style/grayGeoCursor.png'), pointer; 
-    background-size: cover;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
   
 .image-container img {
