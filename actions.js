@@ -1,5 +1,5 @@
 function gotolinkedin(){
-    window.open ("https://www.linkedin.com/in/nguyennpaulina", "_self");
+    window.open ("https://www.linkedin.com/in/nguyennpaulina");
 }
 
 function projectPage(){
