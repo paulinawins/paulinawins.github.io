@@ -6,6 +6,8 @@
 .jumbotron{
     color: #fff;
     padding-bottom: 1em;
+    background-size: cover;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
 body{
     background-color: #333333;
