@@ -165,7 +165,8 @@ body {
   width: 100%;
   background: #111;
   overflow: hidden;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 98%;
   background-position: center center;
   z-index: 1;
 }
